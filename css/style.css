@@ -20,3 +20,22 @@ input {
     border-bottom: 1px solid whitesmoke;
     padding: 10px 0;
 }
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+.cabecalho {
+    height: 160px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.cabecalho h3 {
+    color: azure;
+    margin-top: 8;
+}
