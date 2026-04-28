@@ -72,3 +72,11 @@ form-container {
 .titulo-form {
     margin-bottom: 15px;
 }
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: chartreuse;
+}
