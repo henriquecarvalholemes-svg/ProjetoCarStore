@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Store</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -86,13 +87,23 @@
                             </li>
                             <li>
                                 <input type="checkbox" name="opcional[]" id="Integracao-com-celular" value="Integracao-com-celular"> <label for="Integracao-com-celular">Integração com celular</label>
-                            <li>
+                            </li>
+                                <li>
                                 <input type="checkbox" name="opcional[]" id="banco-de-couro" value="banco-de-couro"> <label for="banco-de-couro">Banco de Couro</label>
                             </li>
                         </ul>
-                    </div>           
+                    </div>  
+                        <div>
+                            <p>Fotos do carro <span>*</span></p>
+                            <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg">
+                        </div>
+                        <input type="submit" value="Enviar">
                 </form>
+                <hr>
+                <h2>Carros Cadastrados</h2>
+                <div></div>
         </div>
     </div>
+    <script src="script/script.js"></script>
 </body>
 </html>
