@@ -39,3 +39,27 @@ textarea {
     color: azure;
     margin-top: 8;
 }
+
+form-container {
+    background-color: black;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
+}
+
+.form-header {
+    border-bottom: 1px solid pink;
+    height: 45px;
+}
+
+.form-header p {
+    color: antiquewhite;
+    border-bottom: 2px solid purple;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px
+    list-style 45px
+}
